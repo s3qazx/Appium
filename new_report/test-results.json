@@ -1,0 +1,25 @@
+{
+  "byId": {
+    "b0c313a193407d733777f3859084bed9": {
+      "id": "b0c313a193407d733777f3859084bed9",
+      "name": "test_enter_home",
+      "duration": 3644,
+      "status": "passed",
+      "environment": "default"
+    },
+    "e36d604f7d0904b147e8e42063254b60": {
+      "id": "e36d604f7d0904b147e8e42063254b60",
+      "name": "test_add_cart_page[\\u6c90\\u6d74\\u9732]",
+      "duration": 14105,
+      "status": "passed",
+      "environment": "default"
+    },
+    "ce708d4e89d1b389b807cdade96d90eb": {
+      "id": "ce708d4e89d1b389b807cdade96d90eb",
+      "name": "test_add_cart_page[\\u6e7f\\u5dfe]",
+      "duration": 17666,
+      "status": "passed",
+      "environment": "default"
+    }
+  }
+}

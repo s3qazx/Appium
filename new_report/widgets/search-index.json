@@ -1,0 +1,28 @@
+[
+  {
+    "id": "e36d604f7d0904b147e8e42063254b60",
+    "nodeId": "e36d604f7d0904b147e8e42063254b60",
+    "name": "test_add_cart_page[\\u6c90\\u6d74\\u9732]",
+    "fullName": "scripts.test_addcart_page.TestAddCartPage#test_add_cart_page",
+    "historyId": "3d1e71c1d7b1196ca89fc129e342c35d.c3b8de6380138b598cdc34da387ed302",
+    "labels": "suite:test_addcart_page test_addcart_page host:Tuki Tuki thread:67508-MainThread 67508-MainThread package:scripts.test_addcart_page scripts.test_addcart_page",
+    "parameters": "search_ok:'沐浴露' search_ok '沐浴露'"
+  },
+  {
+    "id": "ce708d4e89d1b389b807cdade96d90eb",
+    "nodeId": "ce708d4e89d1b389b807cdade96d90eb",
+    "name": "test_add_cart_page[\\u6e7f\\u5dfe]",
+    "fullName": "scripts.test_addcart_page.TestAddCartPage#test_add_cart_page",
+    "historyId": "3d1e71c1d7b1196ca89fc129e342c35d.8dbd3f9451059c0466a214883db92df2",
+    "labels": "suite:test_addcart_page test_addcart_page host:Tuki Tuki thread:67508-MainThread 67508-MainThread package:scripts.test_addcart_page scripts.test_addcart_page",
+    "parameters": "search_ok:'湿巾' search_ok '湿巾'"
+  },
+  {
+    "id": "b0c313a193407d733777f3859084bed9",
+    "nodeId": "b0c313a193407d733777f3859084bed9",
+    "name": "test_enter_home",
+    "fullName": "scripts.test_home_page.TestHomePage#test_enter_home",
+    "historyId": "3cbb0003d97c18751386a3a750d23649.d41d8cd98f00b204e9800998ecf8427e",
+    "labels": "suite:test_home_page test_home_page host:Tuki Tuki thread:67508-MainThread 67508-MainThread package:scripts.test_home_page scripts.test_home_page"
+  }
+]

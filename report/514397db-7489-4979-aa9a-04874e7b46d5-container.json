@@ -1,0 +1,22 @@
+{
+  "uuid": "b1a23100-0543-46b2-973b-3fca48c8884b",
+  "children": [
+    "0e1df442-5d7c-4278-b13b-d59881511c0e"
+  ],
+  "befores": [
+    {
+      "name": "login_ok",
+      "status": "passed",
+      "start": 1790574872828,
+      "stop": 1790574894595
+    }
+  ],
+  "afters": [
+    {
+      "name": "login_ok::<lambda>",
+      "start": 1790574914588
+    }
+  ],
+  "start": 1790574872828,
+  "stop": 1790574914588
+}

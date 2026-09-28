@@ -1,0 +1,105 @@
+{
+  "root": {
+    "groups": [
+      "d6c5855a62cf32a4dadbc2831f0f295f"
+    ],
+    "leaves": []
+  },
+  "groupsById": {
+    "d6c5855a62cf32a4dadbc2831f0f295f": {
+      "nodeId": "d6c5855a62cf32a4dadbc2831f0f295f",
+      "name": "scripts",
+      "statistic": {
+        "total": 3,
+        "passed": 3
+      },
+      "groups": [
+        "b63bf20fa7a95bdf0c13615eca48ecb2",
+        "0015ae8bab07a30fd7184fd76d44b9be"
+      ]
+    },
+    "b63bf20fa7a95bdf0c13615eca48ecb2": {
+      "nodeId": "b63bf20fa7a95bdf0c13615eca48ecb2",
+      "name": "test_addcart_page.py",
+      "statistic": {
+        "total": 2,
+        "passed": 2
+      },
+      "groups": [
+        "1cc2fc2f0773f2e9faee4be65bb30db1"
+      ]
+    },
+    "1cc2fc2f0773f2e9faee4be65bb30db1": {
+      "nodeId": "1cc2fc2f0773f2e9faee4be65bb30db1",
+      "name": "TestAddCartPage",
+      "statistic": {
+        "total": 2,
+        "passed": 2
+      },
+      "leaves": [
+        "e36d604f7d0904b147e8e42063254b60",
+        "ce708d4e89d1b389b807cdade96d90eb"
+      ]
+    },
+    "0015ae8bab07a30fd7184fd76d44b9be": {
+      "nodeId": "0015ae8bab07a30fd7184fd76d44b9be",
+      "name": "test_home_page.py",
+      "statistic": {
+        "total": 1,
+        "passed": 1
+      },
+      "groups": [
+        "b84cf37bd6e710a77a9187cf63004cc6"
+      ]
+    },
+    "b84cf37bd6e710a77a9187cf63004cc6": {
+      "nodeId": "b84cf37bd6e710a77a9187cf63004cc6",
+      "name": "TestHomePage",
+      "statistic": {
+        "total": 1,
+        "passed": 1
+      },
+      "leaves": [
+        "b0c313a193407d733777f3859084bed9"
+      ]
+    }
+  },
+  "leavesById": {
+    "e36d604f7d0904b147e8e42063254b60": {
+      "nodeId": "e36d604f7d0904b147e8e42063254b60",
+      "id": "3d1e71c1d7b1196ca89fc129e342c35d.c3b8de6380138b598cdc34da387ed302",
+      "name": "test_add_cart_page[\\u6c90\\u6d74\\u9732]",
+      "status": "passed",
+      "duration": 14105,
+      "flaky": false,
+      "start": 1790574900480,
+      "retry": false,
+      "retriesCount": 0,
+      "groupOrder": 1
+    },
+    "ce708d4e89d1b389b807cdade96d90eb": {
+      "nodeId": "ce708d4e89d1b389b807cdade96d90eb",
+      "id": "3d1e71c1d7b1196ca89fc129e342c35d.8dbd3f9451059c0466a214883db92df2",
+      "name": "test_add_cart_page[\\u6e7f\\u5dfe]",
+      "status": "passed",
+      "duration": 17666,
+      "flaky": false,
+      "start": 1790574944231,
+      "retry": false,
+      "retriesCount": 0,
+      "groupOrder": 2
+    },
+    "b0c313a193407d733777f3859084bed9": {
+      "nodeId": "b0c313a193407d733777f3859084bed9",
+      "id": "3cbb0003d97c18751386a3a750d23649.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "test_enter_home",
+      "status": "passed",
+      "duration": 3644,
+      "flaky": false,
+      "start": 1790574965384,
+      "retry": false,
+      "retriesCount": 0,
+      "groupOrder": 1
+    }
+  }
+}

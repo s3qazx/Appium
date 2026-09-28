@@ -1,0 +1,62 @@
+{
+  "name": "test_add_cart_page[\\u6e7f\\u5dfe]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "16777b22-783a-44c4-a2c8-8ae9ebc198ad-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "search_ok",
+      "value": "'湿巾'"
+    }
+  ],
+  "start": 1790574944231,
+  "stop": 1790574961897,
+  "uuid": "2d7b3686-111f-43f6-8d5a-4f08c2399d64",
+  "historyId": "b6c247276fe5aa4167aefb83213fbf81",
+  "testCaseId": "5e7341e4ec83310ffb959940b822e785",
+  "fullName": "scripts.test_addcart_page.TestAddCartPage#test_add_cart_page",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "scripts"
+    },
+    {
+      "name": "suite",
+      "value": "test_addcart_page"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAddCartPage"
+    },
+    {
+      "name": "host",
+      "value": "Tuki"
+    },
+    {
+      "name": "thread",
+      "value": "67508-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "scripts.test_addcart_page"
+    }
+  ],
+  "titlePath": [
+    "scripts",
+    "test_addcart_page.py",
+    "TestAddCartPage"
+  ]
+}

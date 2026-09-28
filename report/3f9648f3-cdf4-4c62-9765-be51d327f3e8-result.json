@@ -1,0 +1,56 @@
+{
+  "name": "test_enter_home",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "382369b5-b8bb-46aa-908a-1b2c5f653285-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1790574965384,
+  "stop": 1790574969028,
+  "uuid": "44469728-3982-4524-ac6a-f3582d29c3a3",
+  "historyId": "8d63c9bf1ef7f4d54c3cc71024f630c1",
+  "testCaseId": "8d63c9bf1ef7f4d54c3cc71024f630c1",
+  "fullName": "scripts.test_home_page.TestHomePage#test_enter_home",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "scripts"
+    },
+    {
+      "name": "suite",
+      "value": "test_home_page"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHomePage"
+    },
+    {
+      "name": "host",
+      "value": "Tuki"
+    },
+    {
+      "name": "thread",
+      "value": "67508-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "scripts.test_home_page"
+    }
+  ],
+  "titlePath": [
+    "scripts",
+    "test_home_page.py",
+    "TestHomePage"
+  ]
+}

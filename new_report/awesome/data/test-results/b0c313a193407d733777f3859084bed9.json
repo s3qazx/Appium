@@ -1,0 +1,161 @@
+{
+  "id": "b0c313a193407d733777f3859084bed9",
+  "name": "test_enter_home",
+  "start": 1790574965384,
+  "stop": 1790574969028,
+  "duration": 3644,
+  "status": "passed",
+  "fullName": "scripts.test_home_page.TestHomePage#test_enter_home",
+  "historyId": "3cbb0003d97c18751386a3a750d23649.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "isRetry": false,
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "scripts"
+    },
+    {
+      "name": "suite",
+      "value": "test_home_page"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHomePage"
+    },
+    {
+      "name": "host",
+      "value": "Tuki"
+    },
+    {
+      "name": "thread",
+      "value": "67508-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "scripts.test_home_page"
+    }
+  ],
+  "groupedLabels": {
+    "parentSuite": [
+      "scripts"
+    ],
+    "suite": [
+      "test_home_page"
+    ],
+    "subSuite": [
+      "TestHomePage"
+    ],
+    "host": [
+      "Tuki"
+    ],
+    "thread": [
+      "67508-MainThread"
+    ],
+    "framework": [
+      "pytest"
+    ],
+    "language": [
+      "cpython3"
+    ],
+    "package": [
+      "scripts.test_home_page"
+    ]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "link": {
+        "used": true,
+        "missed": false,
+        "id": "72575c982e6c00af3bd259e236e6a921",
+        "originalFileName": "382369b5-b8bb-46aa-908a-1b2c5f653285-attachment.txt",
+        "ext": ".txt",
+        "contentType": "text/plain",
+        "contentLength": 207,
+        "name": "log"
+      },
+      "type": "attachment"
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "3cbb0003d97c18751386a3a750d23649",
+    "externalId": "8d63c9bf1ef7f4d54c3cc71024f630c1",
+    "name": "test_enter_home",
+    "fullName": "scripts.test_home_page.TestHomePage#test_enter_home"
+  },
+  "retryHash": "e669ea29ebd1fde2140a504933924382",
+  "environment": "default",
+  "setup": [
+    {
+      "id": "29060e44f22d82eb3f4c2350519391d6",
+      "type": "before",
+      "name": "first_app_driver",
+      "status": "passed",
+      "steps": [],
+      "duration": 2807
+    }
+  ],
+  "teardown": [
+    {
+      "id": "93fde397e8ecffa1457ca29685237ffc",
+      "type": "after",
+      "name": "first_app_driver::1",
+      "status": "passed",
+      "steps": [],
+      "duration": 702
+    },
+    {
+      "id": "b8d9e616b111a9e3a7f16762c75b36b4",
+      "type": "after",
+      "name": "first_app_driver::<lambda>",
+      "status": "unknown",
+      "steps": [],
+      "duration": 0
+    }
+  ],
+  "history": [],
+  "retries": [],
+  "breadcrumbs": [
+    [
+      "scripts",
+      "test_home_page",
+      "TestHomePage"
+    ]
+  ],
+  "retry": false,
+  "titlePath": [
+    "scripts",
+    "test_home_page.py",
+    "TestHomePage"
+  ],
+  "retriesCount": 0,
+  "attachments": [
+    {
+      "link": {
+        "used": true,
+        "missed": false,
+        "id": "72575c982e6c00af3bd259e236e6a921",
+        "originalFileName": "382369b5-b8bb-46aa-908a-1b2c5f653285-attachment.txt",
+        "ext": ".txt",
+        "contentType": "text/plain",
+        "contentLength": 207,
+        "name": "log"
+      },
+      "type": "attachment"
+    }
+  ],
+  "order": 3,
+  "categories": []
+}

@@ -1,0 +1,13 @@
+[project]
+name = "appautomation"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "allure-pytest>=2.16.1",
+    "appium-python-client>=6.0.7",
+    "bcrypt>=5.0.0",
+    "mysql-connector-python>=26.7.0",
+    "pymysql>=1.2.3",
+    "pytest>=9.1.1",
+    "selenium>=4.49.0",
+]

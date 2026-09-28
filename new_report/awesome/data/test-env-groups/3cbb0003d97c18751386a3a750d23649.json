@@ -1,0 +1,9 @@
+{
+  "id": "3cbb0003d97c18751386a3a750d23649",
+  "fullName": "scripts.test_home_page.TestHomePage#test_enter_home",
+  "name": "test_enter_home",
+  "status": "passed",
+  "testResultsByEnv": {
+    "default": "b0c313a193407d733777f3859084bed9"
+  }
+}

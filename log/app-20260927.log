@@ -1,0 +1,578 @@
+2026-09-27 20:51:16,951 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:51:16,952 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:51:23,067 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 20:51:23,067 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:51:23,928 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:51:24,968 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:51:24,969 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:51:26,656 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name" and @text="网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】"]')
+2026-09-27 20:51:37,062 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name" and @text="网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 20:51:43,934 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:51:43,934 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:51:50,318 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:湿巾
+2026-09-27 20:51:50,318 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:51:51,182 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:51:52,224 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:51:52,224 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:51:54,086 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name" and @text="网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】"]')
+2026-09-27 20:51:54,146 INFO [base_page.py(base_get_text:33)] - 获取元素文本:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name" and @text="网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】"]') -> 网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】
+2026-09-27 20:55:09,074 INFO [test_search_page.py(test_search_success:14)] - 第一个搜索结果:毛巾 搜索结果
+2026-09-27 20:56:21,824 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:56:21,824 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:56:23,127 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 20:56:23,127 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:56:24,211 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:56:25,244 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:56:25,244 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:56:27,578 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]')
+2026-09-27 20:56:27,805 INFO [base_page.py(base_get_text:33)] - 获取元素文本:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]') -> 【青春系列】100%新疆棉吸水超柔毛巾浴巾
+2026-09-27 20:56:27,805 INFO [test_search_page.py(test_search_success:14)] - 第一个搜索结果:【青春系列】100%新疆棉吸水超柔毛巾浴巾
+2026-09-27 20:56:34,938 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:56:34,938 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:56:41,422 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:湿巾
+2026-09-27 20:56:41,422 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:56:41,449 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:56:42,483 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:56:42,483 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:56:44,048 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]')
+2026-09-27 20:56:54,095 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 20:59:39,543 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 20:59:39,544 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 20:59:42,651 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:59:42,651 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:59:42,862 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 20:59:42,862 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:59:43,960 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:59:45,039 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:59:45,039 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 20:59:47,122 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]')
+2026-09-27 20:59:47,185 INFO [base_page.py(base_get_text:33)] - 获取元素文本:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]') -> 【青春系列】100%新疆棉吸水超柔毛巾浴巾
+2026-09-27 20:59:47,185 INFO [test_search_page.py(test_search_success:17)] - 第一个搜索结果:【青春系列】100%新疆棉吸水超柔毛巾浴巾
+2026-09-27 20:59:54,596 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 20:59:54,596 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 20:59:56,171 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:59:56,171 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 20:59:57,937 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:湿巾
+2026-09-27 20:59:57,937 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 20:59:58,976 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 21:00:00,430 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 21:00:00,430 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 21:00:02,467 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]')
+2026-09-27 21:00:02,529 INFO [base_page.py(base_get_text:33)] - 获取元素文本:('xpath', '(//android.widget.TextView[@resource-id="com.netease.yanxuan:id/tv_goods_name"])[1]') -> 网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】
+2026-09-27 21:00:02,529 INFO [test_search_page.py(test_search_success:17)] - 第一个搜索结果:网易严选 明星单品婴幼儿弱酸性手口湿巾【囤货装】
+2026-09-27 21:27:16,621 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
+2026-09-27 21:27:16,621 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
+2026-09-27 21:27:26,638 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', 'com.netease.yanxuan:id/btn_alert_positive')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 21:27:37,027 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
+2026-09-27 21:27:37,027 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
+2026-09-27 21:27:47,379 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', 'com.netease.yanxuan:id/btn_alert_positive')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 21:28:07,290 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
+2026-09-27 21:28:07,290 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
+2026-09-27 21:28:18,009 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', 'com.netease.yanxuan:id/btn_alert_positive')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 21:28:58,517 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TabWidget[@resource-id="android:id/tabs"]/android.view.ViewGroup[5]')
+2026-09-27 21:28:58,517 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TabWidget[@resource-id="android:id/tabs"]/android.view.ViewGroup[5]')
+2026-09-27 21:29:03,862 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/btn_change_mode')
+2026-09-27 21:29:03,862 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/btn_change_mode')
+2026-09-27 21:29:05,047 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/check_box')
+2026-09-27 21:29:05,047 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/check_box')
+2026-09-27 21:29:05,690 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/account_edit')输入文本:17641160730
+2026-09-27 21:29:05,690 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/account_edit')
+2026-09-27 21:29:05,769 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/account_edit')
+2026-09-27 21:29:06,793 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/password_edit')输入文本:lzj123456!
+2026-09-27 21:29:06,793 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/password_edit')
+2026-09-27 21:29:07,310 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/password_edit')
+2026-09-27 21:29:08,334 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/fl_loginview"]')
+2026-09-27 21:29:08,334 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/fl_loginview"]')
+2026-09-27 21:29:12,693 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/user_name')
+2026-09-27 21:29:12,722 INFO [base_page.py(base_get_text:33)] - 获取元素文本:('id', 'com.netease.yanxuan:id/user_name') -> 用户59907260
+2026-09-27 21:29:12,722 INFO [test_login_page.py(test_login_page_success:14)] - 登录结果 : 用户59907260
+2026-09-27 21:29:12,722 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/user_name')
+2026-09-27 21:29:12,744 INFO [base_page.py(base_get_text:33)] - 获取元素文本:('id', 'com.netease.yanxuan:id/user_name') -> 用户59907260
+2026-09-27 21:59:24,533 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 21:59:24,534 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 21:59:25,626 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 21:59:25,626 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 21:59:35,774 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:07:47,307 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:07:47,307 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:07:57,710 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:08:16,339 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:08:16,339 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:10:54,950 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:10:54,951 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:11:05,228 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:19:40,851 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:19:40,852 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:19:51,191 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:20:03,352 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:20:03,352 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:20:13,799 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:22:14,422 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:22:14,422 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:22:24,478 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:27:43,430 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:27:43,430 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:27:53,849 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:27:53,849 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:27:54,592 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:27:54,593 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:28:04,676 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:32:14,209 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:32:14,209 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:32:25,353 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:32:25,353 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:32:27,435 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:32:27,435 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:33:05,458 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:33:05,459 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:33:17,007 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:33:17,008 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:33:30,680 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:33:30,681 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:34:54,633 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:34:54,634 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:35:04,706 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:35:04,706 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:35:25,249 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:35:25,249 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:35:27,043 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:35:27,043 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:35:27,073 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:35:28,105 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:35:28,105 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:35:34,960 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:35:34,960 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:35:38,058 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:35:38,058 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:36:32,370 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:36:32,371 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:36:36,162 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:36:36,162 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:36:57,047 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:36:57,047 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:37:00,588 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:37:00,588 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:37:09,825 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:37:09,825 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:37:12,967 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:37:25,703 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:37:25,703 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:37:28,917 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:37:28,918 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:37:29,046 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:37:29,046 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:37:32,177 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:44:18,061 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:44:18,062 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:44:21,173 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:44:21,173 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:44:22,443 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:44:22,443 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:44:25,601 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:47:21,275 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:47:21,276 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:47:24,397 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:47:24,397 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:47:24,768 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:47:24,768 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:47:25,658 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:47:25,658 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:47:26,660 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:47:27,691 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:47:27,692 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:47:29,860 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:47:29,861 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:47:29,933 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:47:29,933 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:48:25,186 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:48:25,186 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:48:29,505 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:48:29,505 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:48:50,941 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:48:50,941 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:48:51,068 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:48:51,068 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:48:52,256 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:48:53,318 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:48:53,319 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:48:59,732 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:48:59,732 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:49:03,907 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:49:03,907 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:49:07,220 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', 'com.netease.yanxuan:id/button')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:49:30,433 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:49:30,433 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:49:33,526 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:49:33,527 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:49:33,897 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:49:33,897 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:49:36,351 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:49:36,351 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:49:36,383 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:49:37,418 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:49:37,418 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:49:46,316 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:49:46,316 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:49:49,162 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:49:49,163 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:51:43,083 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:51:43,083 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:51:46,285 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:51:46,286 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:51:47,311 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:51:47,312 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:51:54,924 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:51:54,925 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:51:58,037 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:51:58,037 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:51:58,412 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:51:58,412 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:51:58,977 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:51:58,977 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:52:00,548 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:52:01,577 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:52:01,577 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:52:11,250 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:52:11,251 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:52:13,828 INFO [base_page.py(base_click:23)] - 点击元素:('id', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:52:13,828 INFO [base_page.py(fd_element:14)] - 定位元素:('id', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:52:16,910 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:52:22,868 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:52:22,869 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:52:25,938 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:52:25,938 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:52:26,604 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:52:26,604 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:52:29,929 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:52:37,312 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:52:37,313 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:52:42,270 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:52:42,270 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:52:42,671 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:52:42,671 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:52:44,427 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:52:44,428 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:52:44,456 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:52:45,536 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:52:45,536 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:52:52,967 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:52:52,967 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:52:55,798 INFO [base_page.py(base_click:23)] - 点击元素:('id', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:52:55,799 INFO [base_page.py(fd_element:14)] - 定位元素:('id', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:52:59,715 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:55:16,114 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:55:16,114 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:55:19,218 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:55:19,219 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:55:19,615 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:55:19,615 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:55:22,239 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:55:22,240 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:55:22,272 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:55:23,362 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:55:23,362 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:55:29,354 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:55:29,355 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:55:32,195 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:55:32,195 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:55:52,201 ERROR [addcart_page.py(add_cart:27)] - Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:55:55,052 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/button"]')
+2026-09-27 22:55:55,053 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/button"]')
+2026-09-27 22:55:58,492 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('id', 'com.netease.yanxuan:id/button"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:56:16,804 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:56:16,804 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@text="跳过"]')
+2026-09-27 22:56:19,987 ERROR [base_page.py(fd_element:19)] - 元素定位失败:('xpath', '//android.widget.TextView[@text="跳过"]')-Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:56:19,987 ERROR [test_addcart_page.py(test_add_cart_page:15)] - <class 'Exception'>
+2026-09-27 22:56:20,376 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:56:20,376 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextSwitcher[@resource-id="com.netease.yanxuan:id/tv_home_search"]')
+2026-09-27 22:56:21,265 INFO [base_page.py(base_input_text:27)] - 在元素:('id', 'com.netease.yanxuan:id/search_input')输入文本:毛巾
+2026-09-27 22:56:21,265 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:56:22,314 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_input')
+2026-09-27 22:56:23,345 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:56:23,345 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/tv_search_button')
+2026-09-27 22:56:28,692 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:56:28,692 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '(//android.widget.GridView/android.widget.LinearLayout[@resource-id="com.netease.yanxuan:id/good"])[1]')
+2026-09-27 22:56:29,275 INFO [base_page.py(base_click:23)] - 点击元素:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:56:29,276 INFO [base_page.py(fd_element:14)] - 定位元素:('xpath', '//android.widget.TextView[@resource-id="com.netease.yanxuan:id/button" and @text="加入购物车"]')
+2026-09-27 22:56:50,658 ERROR [addcart_page.py(add_cart:27)] - Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (file:///C:/Users/Tuki/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/find.js:54:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:37:16)
+    at async runCommandPromise (C:\Users\Tuki\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-09-27 22:56:53,006 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:56:53,006 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/button')
+2026-09-27 22:56:56,422 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/nav_left_text')
+2026-09-27 22:56:56,422 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/nav_left_text')
+2026-09-27 22:56:58,345 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/search_bar_return')
+2026-09-27 22:56:58,345 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_bar_return')
+2026-09-27 22:57:00,370 INFO [base_page.py(base_click:23)] - 点击元素:('id', 'com.netease.yanxuan:id/search_bar_return')
+2026-09-27 22:57:00,370 INFO [base_page.py(fd_element:14)] - 定位元素:('id', 'com.netease.yanxuan:id/search_bar_return')
