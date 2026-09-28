@@ -27,3 +27,4 @@ venv/
 /img/*
 !/img/.gitkeep
 /.codex/
+/exercise
