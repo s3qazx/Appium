@@ -1,2 +1,0 @@
-[32mINFO    [0m root:base_page.py:24 点击元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
-[32mINFO    [0m root:base_page.py:15 定位元素:('id', 'com.netease.yanxuan:id/btn_alert_positive')
