@@ -19,10 +19,13 @@ venv/
 *.log
 
 #log
-/log/
+/log/*
+!/log/.gitkeep
 #报告
 /report/
+!/report/.gitkeep
 /new_report/
+!/new_report/.gitkeep
 #img
 /img/*
 !/img/.gitkeep
